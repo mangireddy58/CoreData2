@@ -13,9 +13,18 @@
 		4A5F14A51F53E05A00C7E07E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F14A31F53E05A00C7E07E /* Main.storyboard */; };
 		4A5F14A71F53E05B00C7E07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F14A61F53E05B00C7E07E /* Assets.xcassets */; };
 		4A5F14AA1F53E05B00C7E07E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F14A81F53E05B00C7E07E /* LaunchScreen.storyboard */; };
+		4A5F14B41F53E8FE00C7E07E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14B31F53E8FE00C7E07E /* MainViewController.m */; };
+		4A5F14B81F53EB5B00C7E07E /* SubmitNewIdeasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14B71F53EB5B00C7E07E /* SubmitNewIdeasViewController.m */; };
+		4A5F14BC1F54178500C7E07E /* ReadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14BB1F54178500C7E07E /* ReadMoreViewController.m */; };
+		4A5F14D01F544D1600C7E07E /* SubmittedIdeasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14CC1F544D1600C7E07E /* SubmittedIdeasCell.m */; };
+		4A5F14D11F544D1600C7E07E /* SubmittedIdeasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F14CD1F544D1600C7E07E /* SubmittedIdeasCell.xib */; };
+		4A5F14D21F544D1600C7E07E /* SubmittedIdeasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14CF1F544D1600C7E07E /* SubmittedIdeasViewController.m */; };
+		4A5F14D61F544D6300C7E07E /* CreateMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F14D51F544D6300C7E07E /* CreateMessageViewController.m */; };
+		64A65D2D9FF6AC2FEFF6CCBD /* libPods-CoreData2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D69053C7C875FC0BB56EDF43 /* libPods-CoreData2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D4D94A951AE2D8210C08AC /* Pods-CoreData2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreData2/Pods-CoreData2.debug.xcconfig"; sourceTree = "<group>"; };
 		4A5F14971F53E05900C7E07E /* CoreData2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F149B1F53E05A00C7E07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A5F149D1F53E05A00C7E07E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,21 @@
 		4A5F14A61F53E05B00C7E07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5F14A91F53E05B00C7E07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A5F14AB1F53E05B00C7E07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5F14B21F53E8FE00C7E07E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4A5F14B31F53E8FE00C7E07E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4A5F14B61F53EB5B00C7E07E /* SubmitNewIdeasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitNewIdeasViewController.h; sourceTree = "<group>"; };
+		4A5F14B71F53EB5B00C7E07E /* SubmitNewIdeasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitNewIdeasViewController.m; sourceTree = "<group>"; };
+		4A5F14BA1F54178500C7E07E /* ReadMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadMoreViewController.h; sourceTree = "<group>"; };
+		4A5F14BB1F54178500C7E07E /* ReadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadMoreViewController.m; sourceTree = "<group>"; };
+		4A5F14CB1F544D1600C7E07E /* SubmittedIdeasCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmittedIdeasCell.h; sourceTree = "<group>"; };
+		4A5F14CC1F544D1600C7E07E /* SubmittedIdeasCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmittedIdeasCell.m; sourceTree = "<group>"; };
+		4A5F14CD1F544D1600C7E07E /* SubmittedIdeasCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubmittedIdeasCell.xib; sourceTree = "<group>"; };
+		4A5F14CE1F544D1600C7E07E /* SubmittedIdeasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubmittedIdeasViewController.h; path = SubmittedIdeasVC/SubmittedIdeasViewController.h; sourceTree = "<group>"; };
+		4A5F14CF1F544D1600C7E07E /* SubmittedIdeasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubmittedIdeasViewController.m; path = SubmittedIdeasVC/SubmittedIdeasViewController.m; sourceTree = "<group>"; };
+		4A5F14D41F544D6300C7E07E /* CreateMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMessageViewController.h; sourceTree = "<group>"; };
+		4A5F14D51F544D6300C7E07E /* CreateMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMessageViewController.m; sourceTree = "<group>"; };
+		B0DB20B75576BFBB9A5BB02C /* Pods-CoreData2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreData2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreData2/Pods-CoreData2.release.xcconfig"; sourceTree = "<group>"; };
+		D69053C7C875FC0BB56EDF43 /* libPods-CoreData2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreData2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A65D2D9FF6AC2FEFF6CCBD /* libPods-CoreData2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				4A5F14991F53E05900C7E07E /* CoreData2 */,
 				4A5F14981F53E05900C7E07E /* Products */,
+				E771F085713110CEF1B23904 /* Pods */,
+				E3E7EB21AB7C0B706E9C95D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,11 @@
 		4A5F14991F53E05900C7E07E /* CoreData2 */ = {
 			isa = PBXGroup;
 			children = (
+				4A5F14D31F544D4A00C7E07E /* CreateMessageViewController */,
+				4A5F14C01F54357D00C7E07E /* SubmittedIdeasVC */,
+				4A5F14B91F54176200C7E07E /* ReadMore */,
+				4A5F14B51F53EB4C00C7E07E /* SubmitNewIdeasViewController */,
+				4A5F14B11F53E8F300C7E07E /* MainViewController */,
 				4A5F149D1F53E05A00C7E07E /* AppDelegate.h */,
 				4A5F149E1F53E05A00C7E07E /* AppDelegate.m */,
 				4A5F14A01F53E05A00C7E07E /* ViewController.h */,
@@ -79,6 +111,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4A5F14B11F53E8F300C7E07E /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14B21F53E8FE00C7E07E /* MainViewController.h */,
+				4A5F14B31F53E8FE00C7E07E /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		4A5F14B51F53EB4C00C7E07E /* SubmitNewIdeasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14B61F53EB5B00C7E07E /* SubmitNewIdeasViewController.h */,
+				4A5F14B71F53EB5B00C7E07E /* SubmitNewIdeasViewController.m */,
+			);
+			path = SubmitNewIdeasViewController;
+			sourceTree = "<group>";
+		};
+		4A5F14B91F54176200C7E07E /* ReadMore */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14BA1F54178500C7E07E /* ReadMoreViewController.h */,
+				4A5F14BB1F54178500C7E07E /* ReadMoreViewController.m */,
+			);
+			name = ReadMore;
+			sourceTree = "<group>";
+		};
+		4A5F14C01F54357D00C7E07E /* SubmittedIdeasVC */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14CE1F544D1600C7E07E /* SubmittedIdeasViewController.h */,
+				4A5F14CF1F544D1600C7E07E /* SubmittedIdeasViewController.m */,
+				4A5F14CA1F544D1600C7E07E /* CustomCell */,
+			);
+			name = SubmittedIdeasVC;
+			sourceTree = "<group>";
+		};
+		4A5F14CA1F544D1600C7E07E /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14CB1F544D1600C7E07E /* SubmittedIdeasCell.h */,
+				4A5F14CC1F544D1600C7E07E /* SubmittedIdeasCell.m */,
+				4A5F14CD1F544D1600C7E07E /* SubmittedIdeasCell.xib */,
+			);
+			name = CustomCell;
+			path = SubmittedIdeasVC;
+			sourceTree = "<group>";
+		};
+		4A5F14D31F544D4A00C7E07E /* CreateMessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F14D41F544D6300C7E07E /* CreateMessageViewController.h */,
+				4A5F14D51F544D6300C7E07E /* CreateMessageViewController.m */,
+			);
+			path = CreateMessageViewController;
+			sourceTree = "<group>";
+		};
+		E3E7EB21AB7C0B706E9C95D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69053C7C875FC0BB56EDF43 /* libPods-CoreData2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E771F085713110CEF1B23904 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22D4D94A951AE2D8210C08AC /* Pods-CoreData2.debug.xcconfig */,
+				B0DB20B75576BFBB9A5BB02C /* Pods-CoreData2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A5F14AE1F53E05B00C7E07E /* Build configuration list for PBXNativeTarget "CoreData2" */;
 			buildPhases = (
+				4AE16E6B3B2CE3820F4E6AFD /* [CP] Check Pods Manifest.lock */,
 				4A5F14931F53E05900C7E07E /* Sources */,
 				4A5F14941F53E05900C7E07E /* Frameworks */,
 				4A5F14951F53E05900C7E07E /* Resources */,
+				5E9A779A393D20DE5F471D10 /* [CP] Embed Pods Frameworks */,
+				DAEFA7D5E55A85A86C0C1EDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +249,60 @@
 			files = (
 				4A5F14AA1F53E05B00C7E07E /* LaunchScreen.storyboard in Resources */,
 				4A5F14A71F53E05B00C7E07E /* Assets.xcassets in Resources */,
+				4A5F14D11F544D1600C7E07E /* SubmittedIdeasCell.xib in Resources */,
 				4A5F14A51F53E05A00C7E07E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AE16E6B3B2CE3820F4E6AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9A779A393D20DE5F471D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreData2/Pods-CoreData2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEFA7D5E55A85A86C0C1EDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreData2/Pods-CoreData2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A5F14931F53E05900C7E07E /* Sources */ = {
@@ -152,8 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5F14A21F53E05A00C7E07E /* ViewController.m in Sources */,
+				4A5F14D61F544D6300C7E07E /* CreateMessageViewController.m in Sources */,
+				4A5F14BC1F54178500C7E07E /* ReadMoreViewController.m in Sources */,
+				4A5F14B81F53EB5B00C7E07E /* SubmitNewIdeasViewController.m in Sources */,
 				4A5F149F1F53E05A00C7E07E /* AppDelegate.m in Sources */,
+				4A5F14D01F544D1600C7E07E /* SubmittedIdeasCell.m in Sources */,
 				4A5F149C1F53E05A00C7E07E /* main.m in Sources */,
+				4A5F14B41F53E8FE00C7E07E /* MainViewController.m in Sources */,
+				4A5F14D21F544D1600C7E07E /* SubmittedIdeasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +435,12 @@
 		};
 		4A5F14AF1F53E05B00C7E07E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D4D94A951AE2D8210C08AC /* Pods-CoreData2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = CoreData2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CoreData2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +449,12 @@
 		};
 		4A5F14B01F53E05B00C7E07E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DB20B75576BFBB9A5BB02C /* Pods-CoreData2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MR2PX4Y62Y;
 				INFOPLIST_FILE = CoreData2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.CoreData2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +480,7 @@
 				4A5F14B01F53E05B00C7E07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
